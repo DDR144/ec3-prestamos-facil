@@ -1,12 +1,57 @@
-# React + Vite
+# Prestamos Fácil S.A. (Demo de Vistas)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una **aplicación web de demostración** desarrollada con **React** y **Vite**. Presenta las vistas principales de un sistema de simulación y gestión de créditos personales, pero **no incluye funcionalidad real ni conexión a bases de datos**.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Vistas de Simulador de Crédito:** Interfaz para calcular préstamos (sin lógica funcional).
+- **Información de Préstamos:** Página con tipos de créditos ofrecidos.
+- **Preguntas Frecuentes:** Sección con respuestas a dudas comunes.
+- **Formulario de Contacto:** Vista para enviar consultas (sin envío real).
+- **Diseño Responsivo:** Interfaz moderna usando Bootstrap 5 y Bootstrap Icons.
+- **Navegación SPA:** Navegación entre secciones mediante React Router.
 
-## Expanding the ESLint configuration
+## Estructura del Proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── eslint.config.js
+```
+
+## Instalación y Uso
+
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/DDR144/ec3-prestamos-facil.git
+   cd prestamos-facil-demo
+   ```
+2. Instala las dependencias:
+   ```sh
+   npm install
+   ```
+3. Ejecuta la aplicación en modo desarrollo:
+   ```sh
+   npm run dev
+   ```
+
+## Tecnologías utilizadas
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- [Bootstrap Icons](https://icons.getbootstrap.com/)
+- [React Router DOM](https://reactrouter.com/)
+
+## Autor
+
+Didier Huerta Rojas
